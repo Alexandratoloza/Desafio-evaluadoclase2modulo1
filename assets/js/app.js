@@ -2,7 +2,7 @@
 let Participante;
 let Compurador;
 function aleatoria(){
-    return Math.ceil(Math.random()*3)
+    return Math.floor(Math.random()*3)
 }
 Participante = prompt ("elija: 1 - piedra. 2 - papel, 3- tijera")
 Compurador = aleatoria();
